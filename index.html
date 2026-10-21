@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17151c">
+  <meta name="description" content="Условия использования и политика конфиденциальности CatAd — рекламной сети Discord-серверов.">
+  <title>CatAd — Terms & Privacy</title>
+  <style>
+    :root{color-scheme:dark;--panel:#1c1a22;--line:#34313d;--text:#f4f1f7;--muted:#bbb5c5;--accent:#eab581;--link:#f3bd8c}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at top,#29212a 0,#111015 55%);color:var(--text);font:16px/1.7 system-ui,-apple-system,Segoe UI,sans-serif}
+    header{padding:38px 20px 24px;text-align:center}
+    .avatar{width:94px;height:94px;border-radius:50%;object-fit:cover;border:2px solid #eab58188;box-shadow:0 8px 32px #0007}
+    h1{margin:10px 0 2px;font-size:clamp(32px,6vw,48px);letter-spacing:-.04em}
+    header p{max-width:700px;margin:8px auto;color:var(--muted)}
+    .switch{display:flex;justify-content:center;gap:8px;margin:20px auto 0}
+    .switch button{border:1px solid var(--line);border-radius:999px;background:#ffffff08;color:var(--text);padding:9px 18px;font:inherit;cursor:pointer;transition:background .25s,border-color .25s,transform .25s}
+    .switch button:hover{transform:translateY(-1px)}
+    .switch button.active{border-color:var(--accent);background:#eab58120}
+    main{width:min(900px,calc(100% - 32px));margin:0 auto 56px}
+    .notice{border:1px solid #eab58166;background:#eab58112;border-radius:14px;padding:14px 18px;color:#f5ddc5;margin:20px 0}
+    section{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:clamp(22px,5vw,40px);margin:18px 0;box-shadow:0 14px 40px #0003}
+    h2{margin:0 0 4px;font-size:28px;letter-spacing:-.025em}
+    h3{margin:26px 0 6px;font-size:18px;color:var(--accent)}
+    p,li{color:#e4dfeb}.meta{color:var(--muted)}ul{padding-left:22px}a{color:var(--link)}
+    .lang{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}
+    footer{text-align:center;color:var(--muted);padding:8px 20px 36px}
+    [data-lang]{opacity:1;transform:translateY(0);transition:opacity .22s ease,transform .22s ease}
+    [data-lang].fade-out{opacity:0;transform:translateY(7px)}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+<header>
+  <img class="avatar" src="assets/catad-avatar.jpg" alt="CatAd logo">
+  <h1>CatAd</h1>
+  <p id="intro">Официальные условия использования и политика конфиденциальности CatAd — рекламной сети для Discord-серверов.</p>
+  <div class="switch" aria-label="Выбор языка">
+    <button id="ruButton" class="active" type="button">Русский</button>
+    <button id="enButton" type="button">English</button>
+  </div>
+</header>
+
+<main>
+  <div class="notice" data-lang="ru">
+    <strong>Ответственный разработчик:</strong> inthedark. Поддержка и связь:
+    <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">официальный сервер CatAd Support</a>.
+  </div>
+  <div class="notice" data-lang="en" hidden>
+    <strong>Responsible developer:</strong> inthedark. Support and contact:
+    <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">official CatAd Support server</a>.
+  </div>
+
+  <div data-lang="ru">
+    <section id="terms-ru">
+      <h2>Условия использования</h2>
+      <p class="meta">Дата вступления в силу: 22 октября 2026 года</p>
+      <p>CatAd — Discord-бот и рекламная сеть для настройки рекламных каналов, публикации объявлений Discord-серверов и взаимодействия с объявлениями. Используя бота, вы соглашаетесь с этими условиями.</p>
+
+      <h3>1. Кто может пользоваться ботом</h3>
+      <p>Пользователь должен соблюдать правила Discord и применимое законодательство. Регистрировать сервер и изменять его настройки может участник с необходимыми правами управления сервером.</p>
+      <h3>2. Объявления, модерация и ответственность</h3>
+      <p>Владелец сервера отвечает за описание, теги, ссылку-приглашение, баннер, сайт и другие материалы объявления. Запрещено публиковать незаконный, мошеннический, вводящий в заблуждение, оскорбительный или иной запрещённый контент, а также злоупотреблять лайками и жалобами.</p>
+      <p>Модерация CatAd вправе удалить объявление или исключить сервер из рекламной сети, если считает это необходимым для соблюдения правил или защиты сети. При таком решении указывается причина; пользователь может обратиться за разъяснением или пересмотром на официальный сервер поддержки. Сервер может быть внесён в чёрный список за подтверждённые нарушения. Такая блокировка действует бессрочно; исключение возможно лишь в редких случаях после пересмотра и не гарантируется. Сама по себе жалоба не означает автоматического подтверждения нарушения.</p>
+
+      <h3>3. Работа сервиса</h3>
+      <p>Доступность и доставка объявлений не гарантируются: они зависят от настроек каналов, прав бота, доступности Discord и технических ограничений. Функции CatAd могут изменяться или временно становиться недоступными.</p>
+
+      <h3>4. CatAd+ и платежи</h3>
+      <p>На дату публикации платёжная система CatAd не подключена. Не отправляйте оплату за CatAd+ до появления официально работающей оплаты и ясных условий покупки. Если платные функции будут запущены, цена, срок действия, отмена и возврат будут описаны до оплаты.</p>
+
+      <h3>5. Удаление сервера</h3>
+      <p>Уполномоченный участник может удалить конфигурацию сервера из рекламной сети командой <code>/delete-server</code>. Это не отменяет блокировку из чёрного списка. Технические записи и сведения о модерации могут сохраняться в необходимом для работы сервиса и безопасности объёме. За помощью обратитесь на <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">официальный сервер CatAd Support</a>.</p>
+
+      <h3>6. Интеллектуальная собственность</h3>
+      <p>Оригинальные тексты и элементы оформления CatAd защищаются авторским правом в той мере, в какой это предусмотрено применимым законодательством. Не копируйте и не публикуйте существенные части этих документов или материалов CatAd без предварительного разрешения ответственного разработчика, кроме случаев, когда такое использование разрешено законом. Ссылка на документы и цитирование в объёме, разрешённом законом, не запрещаются.</p>
+
+      <h3>7. Изменения условий и связь</h3>
+      <p>CatAd может изменять настоящие Условия при обновлении проекта, функций или правил. Новая версия публикуется на этой странице; дата вступления в силу обновляется. Продолжая пользоваться ботом после публикации изменений, пользователь принимает обновлённые Условия. Вопросы и обращения: <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">CatAd Support</a>.</p>
+    </section>
+
+    <section id="privacy-ru">
+      <h2>Политика конфиденциальности</h2>
+      <p class="meta">Дата вступления в силу: 22 октября 2026 года</p>
+      <p>Эта политика описывает сведения, которые CatAd обрабатывает для работы Discord-бота и рекламной сети.</p>
+
+      <h3>1. Какие данные обрабатываются</h3>
+      <ul>
+        <li>ID Discord-серверов и пользователей для регистрации, учёта действий и модерации.</li>
+        <li>Лайки и жалобы и связанные записи для подсчёта и предотвращения повторных действий.</li>
+        <li>Описание объявления, теги, приглашение, цвет карточки, ID рекламного канала и URL вебхука.</li>
+        <li>Языковая настройка сервера.</li>
+        <li>Необязательные URL баннера и сайта объявления.</li>
+        <li>Время последнего бампа и статус/срок CatAd+, если функция включена.</li>
+        <li>Технические журналы ошибок и безопасности, создаваемые ботом или инфраструктурой.</li>
+      </ul>
+      <p><strong>Платежи:</strong> на дату публикации платёжная система CatAd не подключена. Бот не запрашивает и не хранит данные банковских карт. При запуске платежей политика будет обновлена.</p>
+
+      <h3>2. Для чего используются сведения</h3>
+      <p>Для регистрации и публикации объявлений, работы ссылок и кнопок, подсчёта лайков и жалоб, кулдауна, выбора языка, модерации, безопасности и устранения ошибок.</p>
+
+      <h3>3. Передача данных</h3>
+      <p>Объявления передаются в каналы участвующих Discord-серверов через Discord API или вебхуки. Discord и провайдеры хостинга/базы данных могут обрабатывать необходимые для своих услуг сведения согласно собственным политикам. CatAd не продаёт персональные данные.</p>
+
+      <h3>4. Удаление и хранение</h3>
+      <p>Уполномоченный участник может удалить конфигурацию сервера из рекламной сети командой <code>/delete-server</code>. Запись о блокировке из чёрного списка этой командой не удаляется. Ограниченные технические и модерационные записи могут храниться для безопасности, предотвращения злоупотреблений или выполнения требований закона.</p>
+      <p>По вопросам обработки данных обратитесь на <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">официальный сервер CatAd Support</a>. Не отправляйте пароли, токены или API-ключи.</p>
+
+      <h3>5. Безопасность и обновления политики</h3>
+      <p>Для защиты данных применяются разумные меры, но абсолютную безопасность в интернете гарантировать нельзя. CatAd может обновлять Политику при изменении проекта или обработки данных. Актуальная версия и дата вступления в силу публикуются на этой странице.</p>
+
+      <h3>6. Связь</h3>
+      <p>Ответственный разработчик: inthedark. Поддержка и обращения: <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">официальный сервер CatAd Support</a>.</p>
+    </section>
+  </div>
+
+  <div data-lang="en" hidden>
+    <section id="terms-en">
+      <h2>Terms of Service</h2>
+      <p class="meta">Effective date: 22 October 2026</p>
+      <p>CatAd is a Discord bot and advertising network for configuring ad channels, publishing Discord server listings, and interacting with advertisements. By using the bot, you agree to these Terms.</p>
+
+      <h3>1. Eligibility</h3>
+      <p>Users must comply with Discord’s rules and applicable law. A user must have the required server-management permissions to register a server or change its settings.</p>
+
+      <h3>2. Listings, moderation, and user responsibility</h3>
+      <p>Server owners are responsible for listing descriptions, tags, invite links, banners, websites, and other submitted content. Unlawful, fraudulent, misleading, abusive, or otherwise prohibited content is not allowed; likes and reports must not be abused.</p>
+      <p>CatAd moderators may remove a listing or exclude a server from the advertising network when they consider it necessary to enforce the rules or protect the network. A reason will be provided for such a decision; users may request clarification or review through the official support server. Confirmed violations may result in blacklisting. A blacklist ban is indefinite; reinstatement may be considered only in rare cases after review and is not guaranteed. A report alone is not an automatic finding of a violation.</p>
+
+      <h3>3. Service availability</h3>
+      <p>Availability and ad delivery are not guaranteed. They depend on channel settings, bot permissions, Discord availability, and technical limits. Features may change or be temporarily unavailable.</p>
+
+      <h3>4. CatAd+ and payments</h3>
+      <p>As of this document’s effective date, CatAd’s payment system is not enabled. Do not pay for CatAd+ until official checkout and clear terms are available. If paid features launch, pricing, duration, cancellation, and refund terms will be disclosed before payment.</p>
+
+      <h3>5. Server removal</h3>
+      <p>An authorized member may remove a server configuration from the ad network with <code>/delete-server</code>. This does not remove a blacklist entry. Limited technical and moderation records may be retained as needed for service operation and security. For help, contact the <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">official CatAd Support server</a>.</p>
+
+      <h3>6. Intellectual property</h3>
+      <p>Original CatAd text and design elements are protected by copyright to the extent provided by applicable law. Do not copy or publish substantial parts of these documents or CatAd materials without prior permission from the responsible developer, except where such use is permitted by law. Linking to these documents and quoting them to the extent permitted by law are not prohibited.</p>
+
+      <h3>7. Changes and contact</h3>
+      <p>CatAd may update these Terms when the project, features, or rules change. The revised version and effective date will be published here. Continued use after publication means acceptance of the updated Terms. Contact: <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">CatAd Support</a>.</p>
+    </section>
+
+    <section id="privacy-en">
+      <h2>Privacy Policy</h2>
+      <p class="meta">Effective date: 22 October 2026</p>
+      <p>This Policy describes information processed by CatAd to operate its Discord bot and advertising network.</p>
+
+      <h3>1. Information processed</h3>
+      <ul>
+        <li>Discord server and user IDs for registration, action tracking, and moderation.</li>
+        <li>Likes, reports, and related records for counting and preventing duplicate actions.</li>
+        <li>Listing description, tags, invite link, card color, advertising-channel ID, and webhook URL.</li>
+        <li>Server language preference.</li>
+        <li>Optional listing banner and website URLs.</li>
+        <li>Last-bump time and CatAd+ status/expiry, if enabled.</li>
+        <li>Technical error and security logs generated by the bot or its infrastructure.</li>
+      </ul>
+      <p><strong>Payments:</strong> as of this Policy’s effective date, CatAd’s payment system is not enabled. The bot does not request or store bank-card details. This Policy will be updated if payments are introduced.</p>
+
+      <h3>2. Purposes</h3>
+      <p>Information is used to register and distribute listings, operate links and buttons, count likes and reports, enforce cooldowns, apply language settings, moderate content, protect the service, and troubleshoot errors.</p>
+
+      <h3>3. Sharing</h3>
+      <p>Advertisements are sent to participating Discord channels through Discord APIs or webhooks. Discord and hosting/database providers may process information needed to provide their services under their own policies. CatAd does not sell personal data.</p>
+
+      <h3>4. Deletion and retention</h3>
+      <p>An authorized member can use <code>/delete-server</code> to remove the server configuration from the ad network. This does not remove a blacklist entry. Limited technical and moderation records may be retained for security, abuse prevention, or legal requirements.</p>
+      <p>For privacy questions, contact the <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">official CatAd Support server</a>. Never send passwords, tokens, or API keys.</p>
+
+      <h3>5. Security and Policy updates</h3>
+      <p>Reasonable safeguards are used, but absolute internet security cannot be guaranteed. CatAd may update this Policy when the project or its data practices change. The current version and effective date will be published here.</p>
+
+      <h3>6. Contact</h3>
+      <p>Responsible developer: inthedark. Support and inquiries: <a href="https://discord.gg/R8VrE4CsJu" target="_blank" rel="noopener noreferrer">official CatAd Support server</a>.</p>
+    </section>
+  </div>
+</main>
+
+<footer id="footer">CatAd · Мурлыкающая сеть Discord-сообществ 🐾</footer>
+
+<script>
+  let currentLang = 'ru';
+  function setLanguage(lang) {
+    if (lang === currentLang) return;
+
+    const groups = [...document.querySelectorAll('[data-lang]')];
+
+    groups.forEach(element => {
+      element.classList.toggle('fade-out', element.dataset.lang !== lang);
+    });
+
+    window.setTimeout(() => {
+      currentLang = lang;
+      document.documentElement.lang = lang;
+
+      groups.forEach(element => {
+        element.hidden = element.dataset.lang !== lang;
+      });
+
+      document.getElementById('ruButton').classList.toggle('active', lang === 'ru');
+      document.getElementById('enButton').classList.toggle('active', lang === 'en');
+
+      document.getElementById('intro').textContent = lang === 'ru'
+        ? 'Официальные условия использования и политика конфиденциальности CatAd — рекламной сети для Discord-серверов.'
+        : 'Official Terms of Service and Privacy Policy for CatAd, an advertising network for Discord servers.';
+
+      document.getElementById('footer').textContent = lang === 'ru'
+        ? 'CatAd · Мурлыкающая сеть Discord-сообществ 🐾'
+        : 'CatAd · The purr-fect network for Discord communities 🐾';
+
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          groups
+            .filter(element => element.dataset.lang === lang)
+            .forEach(element => element.classList.remove('fade-out'));
+        });
+      });
+
+      try {
+        localStorage.setItem('catad-language', lang);
+      } catch {}
+    }, 180);
+  }
+
+  document.getElementById('ruButton').addEventListener('click', () => setLanguage('ru'));
+  document.getElementById('enButton').addEventListener('click', () => setLanguage('en'));
+
+  try {
+    if (localStorage.getItem('catad-language') === 'en') {
+      currentLang = 'ru';
+      setLanguage('en');
+    }
+  } catch {}
+</script>
+</body>
+</html>
