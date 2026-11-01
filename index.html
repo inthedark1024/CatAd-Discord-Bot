@@ -22,7 +22,7 @@
 <header>
   <img class="avatar" src="assets/catad-avatar.jpg" alt="CatAd logo">
   <h1>CatAd</h1>
-  <p id="intro">Официальные условия использования и политика конфиденциальности CatAd — рекламной сети Discord-серверов.</p>
+  <p id="intro">Официальные условия использования и политика конфиденциальности CatAd — рекламной сети для Discord-серверов.</p>
   <div class="switch" aria-label="Выбор языка">
     <button id="ruButton" class="active" type="button" aria-pressed="true">Русский</button>
     <button id="enButton" type="button" aria-pressed="false">English</button>
@@ -32,20 +32,20 @@
   <div data-lang="ru">
     <section id="terms-ru">
       <h2>Условия использования</h2>
-      <p class="meta">Вступили в силу: 29 октября 2026 года · Последнее обновление: 30 октября 2026 года</p>
+      <p class="meta">Вступили в силу: 29 октября 2026 года · Последнее обновление: 1 ноября 2026 года</p>
       <p>CatAd — Discord-бот и рекламная сеть для настройки рекламных каналов, публикации объявлений Discord-серверов и взаимодействия с объявлениями. Используя CatAd, вы соглашаетесь с этими Условиями.</p>
       <h3>1. Использование сервиса</h3>
       <p>Пользователи обязаны соблюдать правила Discord и применимое законодательство. Для регистрации сервера и управления его настройками нужны соответствующие права на сервере.</p>
       <h3>2. Заявки и модерация объявлений</h3>
       <p>Чтобы добавить сервер в рекламную сеть, отправьте заявку командой <code class="command">/add-server</code>. Заявки проходят автоматические проверки и ручную модерацию. До одобрения объявление не участвует в рассылке и не отображается в каталоге.</p>
-      <p><strong>Требования к серверу для подачи заявки:</strong> серверу должно быть не менее 7 дней с момента создания, а на нем должно быть не менее 10 участников.</p>
+      <p><strong>Требования к серверу для подачи заявки:</strong> серверу должно быть не менее 7 дней с момента создания, а на нём должно быть не менее 10 участников.</p>
       <p>Заявка может ожидать проверки, быть одобрена или отклонена. При отклонении модерация указывает причину. Одобренные объявления могут быть проверены повторно; CatAd вправе временно скрыть или удалить объявление при обнаружении нарушения.</p>
       <h3>3. Требования к рекламе</h3>
       <p>Владелец сервера отвечает за точность описания, тегов, приглашения, баннера, сайта и других материалов. Запрещены незаконный, мошеннический, вводящий в заблуждение, оскорбительный, дискриминационный, 18+ и иной запрещённый контент, накрутка лайков и жалоб, а также попытки обхода кулдауна.</p>
       <p>В описании объявления запрещены внешние ссылки и приглашения на другие Discord-серверы. Приглашение к рекламируемому серверу CatAd добавляет автоматически в кнопку «Присоединиться».</p>
       <h3>4. Рассылка, каталог и активность сервера</h3>
       <p>После одобрения владелец сервера может запустить рассылку командой <code class="command">/cat-bump</code> с учётом установленного кулдауна. Доставка и доступность объявлений не гарантируются: они зависят от прав бота, настроек каналов, доступности Discord и технических ограничений.</p>
-      <p>Одобренные серверы отображаются в публичном каталоге поиска (<code class="command">/cat-search</code>) только после первого успешного бампа. Каждый новый бамп обновляет таймер активности сервера. <strong>Если сервер не использовал команду <code class="command">/cat-bump</code> более 10 дней, он автоматически удаляется из рекламной сети и каталога.</strong> Для возвращения потребуется подать новую заявку через <code class="command">/add-server</code>.</p>
+      <p>Одобренные серверы отображаются в каталоге поиска (<code class="command">/cat-search</code>) только после первого успешного бампа. Каждый новый бамп обновляет таймер активности сервера. Если сервер не использовал <code class="command">/cat-bump</code> более 10 дней, он автоматически удаляется из рекламной сети и каталога. Для возвращения потребуется подать новую заявку через <code class="command">/add-server</code>.</p>
       <h3>5. Удаление сервера</h3>
       <p>Уполномоченный участник может удалить конфигурацию и заявку сервера из рекламной сети командой <code class="command">/delete-server</code>. Запись CatAd+ хранится отдельно: удаление сервера из сети само по себе не отменяет и не удаляет активную подписку. Записи модерации, безопасности и заказов могут сохраняться в необходимом объёме для предотвращения злоупотреблений и разрешения споров. Удаление конфигурации не снимает блокировку из чёрного списка.</p>
       <h3>6. CatAd+ и оплата</h3>
@@ -60,27 +60,31 @@
 
     <section id="privacy-ru">
       <h2>Политика конфиденциальности</h2>
-      <p class="meta">Вступила в силу: 29 октября 2026 года · Последнее обновление: 30 октября 2026 года</p>
+      <p class="meta">Вступила в силу: 29 октября 2026 года · Последнее обновление: 1 ноября 2026 года</p>
       <p>Политика описывает сведения, обрабатываемые для работы CatAd, рекламной сети, модерации, уведомлений CatAd+ и заказов.</p>
       <h3>1. Какие сведения обрабатываются</h3>
       <ul>
-        <li><strong>Данные сервера:</strong> ID сервера и рекламного канала, URL вебхуков, описание, теги, приглашение, цвет, необязательные ссылки баннера и сайта, язык и время последнего бампа.</li>
-        <li><strong>Заявки на модерацию:</strong> ID и название сервера, ID подавшего заявку пользователя, описание, теги, автоматически созданное приглашение, время подачи, статус, причина отклонения и ID модерационного сообщения.</li>
+        <li><strong>Данные сервера:</strong> ID сервера и рекламного канала, URL вебхуков, описание, теги, ссылка-приглашение, цвет, необязательные URL баннера и сайта, язык и время последнего бампа.</li>
+        <li><strong>Заявки на модерацию:</strong> ID и название сервера, ID пользователя, отправившего заявку, описание, теги, автоматически созданная ссылка-приглашение, время подачи, статус, причина отклонения и ID модерационного сообщения.</li>
         <li><strong>Лайки и жалобы:</strong> ID сервера и ID пользователя для учёта взаимодействий, подсчёта и предотвращения повторных действий.</li>
         <li><strong>Уведомления о лайках:</strong> владелец может настроить канал уведомлений. При лайке бот получает Discord-имя пользователя, чтобы сформировать уведомление, и отправляет его в выбранный канал через вебхук. ID пользователя используется для учёта лайка. Имя не сохраняется в отдельном поле базы CatAd.</li>
         <li><strong>Заказы CatAd+:</strong> номер заказа, ID сервера и покупателя, сумма, статус и временные метки заказа, а также ID канала и сообщения модерации.</li>
         <li><strong>Подписка:</strong> статус и срок CatAd+ хранятся отдельно от рекламной конфигурации.</li>
         <li><strong>Технические данные:</strong> журналы ошибок и безопасности, создаваемые ботом или инфраструктурой.</li>
       </ul>
-      <h3>2. Цели обработки и уведомления о модерации</h3>
-      <p>Данные используются для проверки и публикации объявлений, связи с владельцем, предотвращения повторных заявок и злоупотреблений, учёта лайков и жалоб, отправки настроенных уведомлений, работы рассылки, управления подписками, модерации, безопасности и устранения ошибок.</p>
+      <h3>2. Ссылки-приглашения Discord</h3>
+      <p>Когда уполномоченный администратор отправляет заявку через <code class="command">/add-server</code>, CatAd создаёт ссылку-приглашение Discord в канале, где была вызвана эта команда. URL приглашения сохраняется в конфигурации рекламной карточки и используется как адрес кнопки «Присоединиться» в предпросмотре, рекламных публикациях, рассылке и каталоге CatAd. Поэтому ссылка может быть доступна пользователям, которые видят соответствующую карточку или запись каталога.</p>
+      <p>Отправляя заявку, администратор подтверждает, что уполномочен добавить сервер в CatAd и разрешает создать и использовать приглашение для описанных выше функций.</p>
+      <p>При удалении сервера из сети CatAd пытается удалить созданное приглашение. Удаление может не состояться, если Discord не предоставляет боту необходимые права, если ссылка уже недоступна или если удаление запрещено настройками Discord. В этом случае администратор сервера может отозвать приглашение вручную в Discord.</p>
+      <h3>3. Цели обработки и уведомления о модерации</h3>
+      <p>Данные используются для проверки и публикации объявлений, создания и использования ссылок-приглашений, связи с владельцем, предотвращения повторных заявок и злоупотреблений, учёта лайков и жалоб, отправки настроенных уведомлений, работы каталога и рассылки, управления подписками, модерации, безопасности и устранения ошибок.</p>
       <p>Если заявка отклонена, причина может быть отправлена владельцу в Discord-личные сообщения. Если личные сообщения недоступны, бот может попытаться отправить уведомление в доступный текстовый канал сервера.</p>
-      <h3>3. Платёжная ссылка и QR-код</h3>
+      <h3>4. Платёжная ссылка и QR-код</h3>
       <p>Для заказа CatAd+ бот предоставляет ссылку и QR-код на внешнюю платёжную страницу YooMoney. QR-код содержит ту же ссылку и не является отдельным платёжным сервисом. CatAd не получает данные банковской карты и не собирает платёжные реквизиты через Discord. Перед активацией модератор вручную проверяет поступление платежа. Платёжный провайдер обрабатывает платёж по своим условиям и политике конфиденциальности.</p>
-      <h3>4. Передача и хранение данных</h3>
-      <p>Объявления и уведомления отправляются в указанные Discord-каналы через Discord API или вебхуки. При оформлении оплаты пользователь переходит на внешний сайт YooMoney. Discord, платёжный провайдер и поставщики хостинга или базы данных могут обрабатывать необходимые для оказания их услуг сведения согласно собственным документам. CatAd не продаёт персональные данные.</p>
+      <h3>5. Передача и хранение данных</h3>
+      <p>Объявления и уведомления отправляются в указанные Discord-каналы через Discord API или вебхуки. Ссылки-приглашения показываются в карточках и каталоге, как описано выше. При оформлении оплаты пользователь переходит на внешний сайт YooMoney. Discord, платёжный провайдер и поставщики хостинга или базы данных могут обрабатывать необходимые для оказания их услуг сведения согласно собственным документам. CatAd не продаёт персональные данные.</p>
       <p>Команда <code class="command">/delete-server</code> удаляет рекламную конфигурацию и заявку из сети, но сама по себе не удаляет отдельную запись CatAd+ и не отзывает активный премиум. Ограниченные записи модерации, безопасности, заказов и технические журналы могут храниться столько, сколько необходимо для работы сервиса, предотвращения злоупотреблений, учёта оплаты и разрешения споров.</p>
-      <h3>5. Безопасность и запросы</h3>
+      <h3>6. Безопасность и запросы</h3>
       <p>CatAd применяет разумные меры защиты, но не может гарантировать абсолютную безопасность передачи и хранения данных. По вопросам обработки данных или запросам обратитесь на <a href="https://discord.gg/tU3VjT7UXW" target="_blank" rel="noopener noreferrer">сервер CatAd Support</a>. Не отправляйте в поддержку пароли, токены и API-ключи. Политика может обновляться; актуальная версия и дата обновления указаны выше.</p>
     </section>
   </div>
@@ -88,7 +92,7 @@
   <div data-lang="en" hidden>
     <section id="terms-en">
       <h2>Terms of Service</h2>
-      <p class="meta">Effective: 29 October 2026 · Last updated: 30 October 2026</p>
+      <p class="meta">Effective: 29 October 2026 · Last updated: 1 November 2026</p>
       <p>CatAd is a Discord bot and advertising network for configuring ad channels, publishing Discord server listings, and interacting with listings. By using CatAd, you agree to these Terms.</p>
       <h3>1. Using the service</h3>
       <p>Users must follow Discord’s rules and applicable law. Appropriate server permissions are required to register a server and manage its settings.</p>
@@ -101,7 +105,7 @@
       <p>External links and invitations to other Discord servers are not allowed in the listing description. CatAd automatically adds the advertised server’s invite through the “Join” button.</p>
       <h3>4. Broadcasts, directory, and server activity</h3>
       <p>After approval, a server owner may start a broadcast with <code class="command">/cat-bump</code>, subject to the applicable cooldown. Delivery and availability are not guaranteed and depend on bot permissions, channel settings, Discord availability, and technical limits.</p>
-      <p>Approved servers appear in the public search directory (<code class="command">/cat-search</code>) only after their first successful bump. Each new bump resets the server’s activity timer. <strong>If a server does not use the <code class="command">/cat-bump</code> command for more than 10 days, it is automatically removed from the ad network and the directory.</strong> To return, a new application must be submitted via <code class="command">/add-server</code>.</p>
+      <p>Approved servers appear in the public search directory (<code class="command">/cat-search</code>) only after their first successful bump. Each new bump resets the server’s activity timer. If a server does not use <code class="command">/cat-bump</code> for more than 10 days, it is automatically removed from the ad network and directory. To return, submit a new application using <code class="command">/add-server</code>.</p>
       <h3>5. Removing a server</h3>
       <p>An authorized member may remove the server’s configuration and application from the network using <code class="command">/delete-server</code>. CatAd+ subscription records are stored separately, so removing a server from the network does not itself cancel or delete an active subscription. Limited moderation, security, and order records may be retained as necessary. Removal does not clear a blacklist entry.</p>
       <h3>6. CatAd+ and payments</h3>
@@ -116,7 +120,7 @@
 
     <section id="privacy-en">
       <h2>Privacy Policy</h2>
-      <p class="meta">Effective: 29 October 2026 · Last updated: 30 October 2026</p>
+      <p class="meta">Effective: 29 October 2026 · Last updated: 1 November 2026</p>
       <p>This Policy describes information processed to operate CatAd, its advertising network, moderation, CatAd+ notifications, and orders.</p>
       <h3>1. Information processed</h3>
       <ul>
@@ -128,15 +132,19 @@
         <li><strong>Subscription:</strong> CatAd+ status and expiry are stored separately from advertising configuration.</li>
         <li><strong>Technical data:</strong> error and security logs generated by the bot or its infrastructure.</li>
       </ul>
-      <h3>2. Purposes and moderation notifications</h3>
-      <p>Information is used to review and publish listings, contact server owners, prevent duplicate applications and abuse, record likes and reports, send configured notifications, operate broadcasts, manage subscriptions, moderate content, protect the service, and troubleshoot errors.</p>
+      <h3>2. Discord invite links</h3>
+      <p>When an authorized server administrator submits an application through <code class="command">/add-server</code>, CatAd creates a Discord invite in the channel where that command was used. The invite URL is stored in the advertising listing configuration and used as the destination of the “Join” button in previews, advertising cards, broadcasts, and the CatAd directory. The invite may therefore be accessible to users who see the corresponding card or directory listing.</p>
+      <p>By submitting an application, the administrator confirms that they are authorized to add the server to CatAd and permits CatAd to create and use the invite for these purposes.</p>
+      <p>When a server is removed from the network, CatAd attempts to delete the invite it created. Deletion may fail if Discord does not provide the required permissions, the invite is no longer accessible, or Discord settings prevent deletion. In that case, a server administrator can revoke the invite manually in Discord.</p>
+      <h3>3. Purposes and moderation notifications</h3>
+      <p>Information is used to review and publish listings, create and use invite links, contact server owners, prevent duplicate applications and abuse, record likes and reports, send configured notifications, operate the directory and broadcasts, manage subscriptions, moderate content, protect the service, and troubleshoot errors.</p>
       <p>If an application is rejected, the reason may be sent to the owner through Discord direct messages. If direct messages are unavailable, the bot may attempt to send a notice to an accessible text channel on the server.</p>
-      <h3>3. Payment link and QR code</h3>
+      <h3>4. Payment link and QR code</h3>
       <p>For CatAd+ orders, the bot provides a link and QR code to an external YooMoney payment page. The QR code contains the same link and is not a separate payment service. CatAd does not receive bank-card details or collect payment credentials through Discord. A moderator manually verifies receipt before activation. The payment provider processes payments under its own terms and privacy policy.</p>
-      <h3>4. Sharing and retention</h3>
-      <p>Listings and notifications are sent to designated Discord channels through Discord APIs or webhooks. To pay, users are directed to the external YooMoney website. Discord, the payment provider, and hosting or database providers may process information necessary to provide their services under their own documents. CatAd does not sell personal data.</p>
+      <h3>5. Sharing and retention</h3>
+      <p>Listings and notifications are sent to designated Discord channels through Discord APIs or webhooks. Invite links are displayed in cards and the directory as described above. To pay, users are directed to the external YooMoney website. Discord, the payment provider, and hosting or database providers may process information necessary to provide their services under their own documents. CatAd does not sell personal data.</p>
       <p><code class="command">/delete-server</code> removes the advertising configuration and application from the network, but does not itself delete the separate CatAd+ record or revoke active premium access. Limited moderation, security, order records, and technical logs may be retained as necessary to operate the service, prevent abuse, account for payments, and resolve disputes.</p>
-      <h3>5. Security and requests</h3>
+      <h3>6. Security and requests</h3>
       <p>CatAd uses reasonable safeguards but cannot guarantee absolute security of data transmission or storage. For privacy questions or data requests, contact the <a href="https://discord.gg/tU3VjT7UXW" target="_blank" rel="noopener noreferrer">CatAd Support server</a>. Do not send passwords, tokens, or API keys to Support. This Policy may be updated; the current version and update date appear above.</p>
     </section>
   </div>
