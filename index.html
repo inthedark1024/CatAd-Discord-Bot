@@ -75,7 +75,12 @@
       <h3>2. Ссылки-приглашения Discord</h3>
       <p>Когда уполномоченный администратор отправляет заявку через <code class="command">/add-server</code>, CatAd создаёт ссылку-приглашение Discord в канале, где была вызвана эта команда. URL приглашения сохраняется в конфигурации рекламной карточки и используется как адрес кнопки «Присоединиться» в предпросмотре, рекламных публикациях, рассылке и каталоге CatAd. Поэтому ссылка может быть доступна пользователям, которые видят соответствующую карточку или запись каталога.</p>
       <p>Отправляя заявку, администратор подтверждает, что уполномочен добавить сервер в CatAd и разрешает создать и использовать приглашение для описанных выше функций.</p>
-      <p>При удалении сервера из сети CatAd пытается удалить созданное приглашение. Удаление может не состояться, если Discord не предоставляет боту необходимые права, если ссылка уже недоступна или если удаление запрещено настройками Discord. В этом случае администратор сервера может отозвать приглашение вручную в Discord.</p>
+      <p>При удалении сервера из сети CatAd пытается отозвать созданное приглашение.
+Для удаления Discord может потребовать от бота право «Управлять каналом»
+в канале, где создано приглашение, либо другое подходящее разрешение Discord.
+Одного права «Создавать приглашения» может быть недостаточно. Если необходимых
+прав нет, приглашение может остаться действующим; администратор сервера сможет
+отозвать его вручную в настройках приглашений Discord.</p>
       <h3>3. Цели обработки и уведомления о модерации</h3>
       <p>Данные используются для проверки и публикации объявлений, создания и использования ссылок-приглашений, связи с владельцем, предотвращения повторных заявок и злоупотреблений, учёта лайков и жалоб, отправки настроенных уведомлений, работы каталога и рассылки, управления подписками, модерации, безопасности и устранения ошибок.</p>
       <p>Если заявка отклонена, причина может быть отправлена владельцу в Discord-личные сообщения. Если личные сообщения недоступны, бот может попытаться отправить уведомление в доступный текстовый канал сервера.</p>
@@ -135,7 +140,12 @@
       <h3>2. Discord invite links</h3>
       <p>When an authorized server administrator submits an application through <code class="command">/add-server</code>, CatAd creates a Discord invite in the channel where that command was used. The invite URL is stored in the advertising listing configuration and used as the destination of the “Join” button in previews, advertising cards, broadcasts, and the CatAd directory. The invite may therefore be accessible to users who see the corresponding card or directory listing.</p>
       <p>By submitting an application, the administrator confirms that they are authorized to add the server to CatAd and permits CatAd to create and use the invite for these purposes.</p>
-      <p>When a server is removed from the network, CatAd attempts to delete the invite it created. Deletion may fail if Discord does not provide the required permissions, the invite is no longer accessible, or Discord settings prevent deletion. In that case, a server administrator can revoke the invite manually in Discord.</p>
+      <p>When a server is removed from the network, CatAd attempts to revoke the invite
+it created. Discord may require the bot to have “Manage Channel” permission in
+the channel where the invite was created, or another applicable Discord permission.
+“Create Invite” permission alone may not be sufficient. If the bot lacks the
+required permission, the invite may remain active; a server administrator can
+revoke it manually in Discord’s invite settings.</p>
       <h3>3. Purposes and moderation notifications</h3>
       <p>Information is used to review and publish listings, create and use invite links, contact server owners, prevent duplicate applications and abuse, record likes and reports, send configured notifications, operate the directory and broadcasts, manage subscriptions, moderate content, protect the service, and troubleshoot errors.</p>
       <p>If an application is rejected, the reason may be sent to the owner through Discord direct messages. If direct messages are unavailable, the bot may attempt to send a notice to an accessible text channel on the server.</p>
